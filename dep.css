@@ -1,0 +1,12 @@
+body{
+    
+    background-image: url(libraryy.jpg);
+    background-size: cover;
+} 
+ .container{
+    height: 500px;
+     display: grid;
+    grid-template-columns: repeat(3 fr);
+    grid-template-rows: repeat(3 fr);
+    
+ }

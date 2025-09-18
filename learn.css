@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, sans-serif;
+    
+   
+}
+body{
+    background-color: brown !important;
+}
+.container{
+    /* /* width: 1200px;
+    height: 1000px; */
+    /* border: 2px solid black; */ 
+    display: flex;
+    gap: 150px;
+   padding: 200px;
+  
+}
+.card-title{
+    color: gold;
+    font-size: 20px;
+}
+.card-text{
+    color: rgb(17, 16, 16);
+}
+.btn{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+img:hover{
+    transition: 4s;
+}
