@@ -10,7 +10,7 @@ body{
 .img{
 
     background-image: url(img2.webp);
-    height: 100vh;
+    height: 120vh;
     background-position: center;
     background-size: cover;
 }

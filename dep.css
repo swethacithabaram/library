@@ -1,12 +1,39 @@
-body{
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-image: url(lib\ book\ back.jpg); */
+   color: white;
+}
+h1{
+    color: black;
+    text-align: center;
+   
+
     
-    background-image: url(libraryy.jpg);
-    background-size: cover;
-} 
- .container{
-    height: 500px;
-     display: grid;
-    grid-template-columns: repeat(3 fr);
-    grid-template-rows: repeat(3 fr);
-    
- }
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+a:active{
+    color:rgb(241, 239, 239);
+}
+.con{
+    width: 1000px;
+    height: 900px;
+    padding: 10px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+   
+}
+.table-striped{
+    background-color: brown;
+
+}
+.table-hover{
+    background-color:brown;
+}

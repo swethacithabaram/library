@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: brown;
+}
+img{
+    margin-left:50px;
+    margin-right:50px;
+    margin: auto;
+    display:block;
+    margin-top: 130px;
+
+
+   
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}

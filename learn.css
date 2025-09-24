@@ -3,20 +3,22 @@
     padding: 0px;
     box-sizing: border-box;
     font-family:Arial, sans-serif;
-    
+     background-color: brown;
+     
    
 }
-body{
-    background-color: brown !important;
-}
+
+
 .container{
-    /* /* width: 1200px;
-    height: 1000px; */
-    /* border: 2px solid black; */ 
-    display: flex;
-    gap: 150px;
-   padding: 200px;
-  
+  display: grid;
+grid-template:repeat(2,500px)/repeat(3,500px) ;
+row-gap: 10px;
+padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: white;
 }
 .card-title{
     color: gold;
@@ -30,6 +32,21 @@ body{
     justify-content: center;
     align-items: center;
 }
-img:hover{
-    transition: 4s;
+.card{
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+   
+}
+.card:hover{
+   transform: translateY(-10px)scale(1.03);
+   box-shadow: 0 8px 20px rgb(0,0,0,0.3);
+}
+.card img{
+    transition: transform 0.5s ease;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+.card:hover{
+    background-color: #f8f9fa;
+    color: #000;
 }
